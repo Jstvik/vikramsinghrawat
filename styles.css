@@ -10,14 +10,31 @@ body {
 }
 
 .container {
-  max-width: 720px;
+  max-width: 760px;
   margin: 0 auto;
   padding: 80px 24px;
 }
 
+.nav {
+  max-width: 760px;
+  margin: 40px auto 0 auto;
+  padding: 0 24px;
+}
+
+.nav a {
+  margin-right: 24px;
+  text-decoration: none;
+  color: #aaaaaa;
+  font-size: 0.95rem;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+
 h1 {
   font-size: 2.2rem;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.3em;
 }
 
 h2 {
@@ -32,18 +49,13 @@ h2 {
   line-height: 1.6;
 }
 
-.services {
-  margin: 32px 0;
-  padding-left: 18px;
-}
-
-.services li {
-  margin-bottom: 10px;
+.project,
+.writing-entry {
+  margin-top: 40px;
 }
 
 .cred {
   margin-top: 40px;
-  font-size: 0.95rem;
   color: #bbbbbb;
 }
 
@@ -53,5 +65,4 @@ h2 {
 
 a {
   color: #ffffff;
-  text-decoration: underline;
 }
